@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "From Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 21879,
+      "bodyTextHash": "eb965ab45608a069ea8eaeeafaf681840b3f22f0c29ff1a2e91d4d79c96dcb35",
+      "bodyTextPrefix": "From Seed to Seed Your zone Zone 3 Zone 4 Zone 5 Zone 6 Zone 7 Z",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/nopay.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "From Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 21743,
+      "bodyTextHash": "ae03aa4b68b09daf7efb4ee536933a2076a0dc94f3d0ee8eb73ad9f6d1285abd",
+      "bodyTextPrefix": "Contents From Seed to Seed Zone 3 Zone 4 Zone 5 Zone 6 Zone 7 Zo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/nopay-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/nopay.json"
+}

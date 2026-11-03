@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  --font-body: "Literata", "Palatino Linotype", Palatino, serif;
+  --color-field: #e6dfd1;
+  --color-paper: #f7f3ea;
+  --color-ink: #1a2118;
+  --color-muted: #5c6558;
+  --color-line: #ddd4c4;
+  --color-leaf: #234833;
+  --color-leaf-soft: #e4efe4;
+  --color-clay: #9c4632;
+  --color-clay-soft: #f6e6df;
+  --radius-sheet: 1rem;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--color-field);
+    color: var(--color-ink);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    line-height: 1.15;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-leaf);
+    outline-offset: 3px;
+  }
+}
+
+@utility kicker {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-leaf);
+}
+
+.chapter-lead::first-letter {
+  font-family: var(--font-display);
+  float: left;
+  font-size: 3.25rem;
+  line-height: 0.8;
+  padding: 0.35rem 0.55rem 0 0;
+  color: var(--color-leaf);
+  font-weight: 560;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@media print {
+  body {
+    background: white;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-block {
+    break-inside: avoid;
+  }
+}

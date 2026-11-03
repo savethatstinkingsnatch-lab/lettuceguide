@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "From Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 21862,
+      "bodyTextHash": "31b6c402c2a81e6c8f6709b6f6114763ce3850004c1e085bc6731d44f095ed90",
+      "bodyTextPrefix": "From Seed to Seed Your zone Zone 3 Zone 4 Zone 5 Zone 6 Zone 7 Z",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/dev.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "From Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 21726,
+      "bodyTextHash": "76a1264e45a6c1a6f290e1bb36c7c0939eda5d775fb2d7a236e8afe72dc7872e",
+      "bodyTextPrefix": "Contents From Seed to Seed Zone 3 Zone 4 Zone 5 Zone 6 Zone 7 Zo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/dev-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/dev.json"
+}

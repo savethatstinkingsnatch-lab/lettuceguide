@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "From Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 22256,
+      "bodyTextHash": "e080f1b23d1140d89d41a282487b13c1020d872efd01194601aecc86ebe6a135",
+      "bodyTextPrefix": "From Seed to Seed Your zone Zone 3 Zone 4 Zone 5 Zone 6 Zone 7 Z",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/buy-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "From Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 22120,
+      "bodyTextHash": "563baa106fe0f31d3d8a4a4b3101f6ed92d819b9413b3ed59d46fd7ab26dd1b1",
+      "bodyTextPrefix": "Contents From Seed to Seed Zone 3 Zone 4 Zone 5 Zone 6 Zone 7 Zo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/buy-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/buy-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
