@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "From Seed to Seed";
+const APP_NAME = "Lettuce: A Grower's Book of Lettuce";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "From Seed to Seed, by Jessica McIntosh. A grower's book of lettuce: sowing, USDA zones, harvest, saving seed, and companion plants.",
+          "Lettuce, The Education Revolution Pocket Guide Volume 20, by Blue and the Awesome Dudes. A grower's book of lettuce: sowing, USDA zones, harvest, saving seed, and companion plants.",
       },
       { name: "theme-color", content: "#f7f3ea" },
     ],

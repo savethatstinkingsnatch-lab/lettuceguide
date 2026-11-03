@@ -1,4 +1,5 @@
 export const chapters = [
+  { id: "start", num: "00", title: "Start here" },
   { id: "plant", num: "01", title: "The plant" },
   { id: "kinds", num: "02", title: "Six kinds" },
   { id: "zones", num: "03", title: "Zones" },
@@ -8,6 +9,8 @@ export const chapters = [
   { id: "seed", num: "07", title: "Saving seed" },
   { id: "companions", num: "08", title: "Companions" },
   { id: "year", num: "09", title: "Your year" },
+  { id: "glossary", num: "10", title: "Glossary" },
+  { id: "about", num: "11", title: "About" },
 ] as const;
 
 export type ChapterId = (typeof chapters)[number]["id"];

@@ -1,10 +1,15 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { K as require_react, b as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
 import { i as Leaf, r as Menu, t as X } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-tEXSBGXz.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-BOoTrkHJ.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var chapters = [
+	{
+		id: "start",
+		num: "00",
+		title: "Start here"
+	},
 	{
 		id: "plant",
 		num: "01",
@@ -49,6 +54,16 @@ var chapters = [
 		id: "year",
 		num: "09",
 		title: "Your year"
+	},
+	{
+		id: "glossary",
+		num: "10",
+		title: "Glossary"
+	},
+	{
+		id: "about",
+		num: "11",
+		title: "About"
 	}
 ];
 var monthNames = [
@@ -744,7 +759,7 @@ function Book() {
 							"aria-hidden": "true"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 							className: "truncate font-display text-lg",
-							children: "From Seed to Seed"
+							children: "Lettuce"
 						})]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", {
@@ -808,11 +823,15 @@ function Book() {
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
 								className: "mt-3 font-display text-5xl text-ink md:text-6xl",
-								children: "From Seed to Seed"
+								children: "Lettuce"
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 								className: "mt-3 font-display text-xl",
-								children: "Jessica McIntosh"
+								children: "by Blue and the Awesome Dudes"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "mt-1 text-sm",
+								children: "The Education Revolution Pocket Guide, Volume 20: Lettuce"
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 								className: "mt-5 max-w-md text-lg text-muted",
@@ -842,6 +861,24 @@ function Book() {
 							})
 						] })]
 					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Chapter, {
+						id: "start",
+						num: "00",
+						title: "Start here",
+						lede: "New to lettuce?",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ol", {
+							className: "list-decimal space-y-3 pl-5",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Set your zone at the top." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Sow in cool weather, spring and fall." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Press the seed onto the surface, barely covered, and keep it moist." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Thin so the plants have room." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Water evenly and give afternoon shade as it warms." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Harvest in the morning." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "For seed, let your best open-pollinated plants bolt and keep varieties 10 to 20 feet apart." })
+							]
+						})
+					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Chapter, {
 						id: "plant",
 						num: "01",
@@ -864,7 +901,7 @@ function Book() {
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Soil temperature from about 40°F (4°C), slow and grudging, up to a happy 60–68°F (16–20°C), where seed is often up in a few days." }),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Above roughly 75–80°F (24–27°C), many varieties slip into thermodormancy and simply refuse. Shade, evening sowing, and a few days in the refrigerator can break that refusal. Hot soil plus a dry crust will not." }),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "A cover no deeper than ⅛ inch (3 mm). Seed that is buried is seed that is late." }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "A cover no deeper than ⅛ inch (3 mm). Lettuce seed sprouts best with some light reaching it, so press it onto the surface and barely cover it. Seed that is buried is seed that is late." }),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Steady surface moisture until the cotyledons open. After that, deep and even beats a daily sprinkle." })
 								]
 							}),
@@ -998,7 +1035,7 @@ function Book() {
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 								className: "text-sm text-muted",
-								children: "These are open-pollinated varieties you can save seed from. If a packet says F1 or hybrid, grow it for the bowl and buy it again."
+								children: "These are open-pollinated varieties you can save seed from. If a packet says F1 or hybrid, grow it for the bowl and start from a new packet next time."
 							})
 						]
 					}),
@@ -1166,7 +1203,7 @@ function Book() {
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Three things push the stalk: days longer than about fourteen hours, daytime heat much above 75–80°F (24–27°C), and stress, especially drought or crowding. The first sign is a tightening, elongating center, not the flower itself. Taste a leaf. If the bitterness is already there, harvest the bed for cooking or for the neighbors, and leave only the plants you marked for seed." }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
-								"Shade on the west side, steady water, and a slow-bolting variety buy time. They do not repeal July. In zone ",
+								"Shade on the west side, steady water, and a slow-bolting variety give you time. They do not repeal July. In zone ",
 								zone.id,
 								": ",
 								zone.summer
@@ -1230,7 +1267,9 @@ function Book() {
 								zone.fallPick.toLowerCase(),
 								"."
 							] }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Store it unwashed, in a container or perforated bag with a dry towel, as cold and as humid as the refrigerator allows without freezing. Leaf lettuce is a week. Romaine and a sound crisphead can go two. Wash when you eat. Lettuce is sensitive to ethylene, so keep it off the apples." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Store it unwashed, in a container or perforated bag with a dry towel, as cold and as humid as the refrigerator allows without freezing. Leaf lettuce is a week. Romaine and a sound crisphead can go two. Wash when you eat." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Raw salad can carry germs like E. coli. Wash your hands first. Remove the outer and damaged leaves. Rinse the leaves under cool running water, or swish them in a clean bowl and lift them out. Do not use soap or bleach. Spin or pat dry. Keep cut lettuce cold. Never use fresh manure on a salad bed." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Lettuce is sensitive to ethylene, so keep it off the apples." }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "A light frost sweetens fall leaves. A hard freeze ruins them. If a real freeze is forecast and you have no cover, harvest and take the loss in the drawer rather than in the bed." })
 						]
 					}),
@@ -1244,6 +1283,11 @@ function Book() {
 								src: "/book/bolt.jpg",
 								alt: "A bolted lettuce with a tall stalk, small yellow flowers, and white seed heads",
 								caption: "Plate 5. The seed parent. Flowers open from the lower branches first, over several weeks."
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("aside", {
+								className: "border border-line bg-field p-5",
+								"aria-label": "Wild lettuce",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Wild lettuce (prickly lettuce, Lactuca serriola, and bitter lettuce, Lactuca virosa) grows as a roadside weed. It has milky sap, prickly leaf midribs, and small yellow flowers. It can cross with your lettuce, so pull it before it flowers near your seed crop. You may read online that wild lettuce is 'lettuce opium' or a natural sedative. This guide does NOT recommend eating, smoking, or making remedies from wild lettuce. The sap can cause poisoning, and the claims are not proven." })
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ol", {
 								className: "space-y-5 border-l border-line pl-5",
@@ -1280,6 +1324,13 @@ function Book() {
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										className: "mt-1",
 										children: "About two-thirds ripe is the moment. Wait for every head and the wind, and the finches, take the first and best seed. Cut on a dry day after dew is gone. Put the stalks in a paper bag, not plastic. Plastic sweats and the seed molds."
+									})] }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+										className: "font-display text-xl",
+										children: "Clean the seed"
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "mt-1",
+										children: "Once the stalks are dry in the paper bag, shake and rub the heads inside the bag. Pour through a kitchen strainer, then gently blow or use a fan to lift away the white fluff (the pappus). Dry the clean seed a few more days before you jar it."
 									})] }),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 										className: "font-display text-xl",
@@ -1367,7 +1418,7 @@ function Book() {
 									]
 								})
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Before you trust old seed, test ten seeds on a damp towel in a bag at room temperature. Read it at seven days. Under about seventy percent, sow more thickly or replace the lot. Pelleted seed is best the year you buy it; the clay coat drinks moisture in storage." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Before you trust old seed, test ten seeds on a damp towel in a bag at room temperature. Read it at seven days. Under about seventy percent, sow more thickly or replace the lot. Pelleted seed is best the season it was packed; the clay coat drinks moisture in storage." }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("fieldset", {
 								className: "border border-line p-4",
 								children: [
@@ -1471,7 +1522,8 @@ function Book() {
 									" ",
 									item.why
 								] }, item.name))
-							})
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "For spinach, kale, arugula, and other greens, see Volume 3: Greens. For peas, see the Peas volume." })
 						]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Chapter, {
@@ -1526,6 +1578,69 @@ function Book() {
 								". If your garden disagrees, believe the garden."
 							]
 						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Chapter, {
+						id: "glossary",
+						num: "10",
+						title: "Glossary",
+						lede: "The words this book uses when it talks about sowing, heat, and seed.",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("dl", {
+							className: "space-y-5",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
+									className: "font-display text-xl",
+									children: "Bolting"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "Sending up a flower stalk; the leaves turn bitter." })] }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
+									className: "font-display text-xl",
+									children: "Thermodormancy"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "Seed refusing to sprout when the soil is too hot." })] }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
+									className: "font-display text-xl",
+									children: "Pappus"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "The white fluff attached to lettuce seed." })] }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
+									className: "font-display text-xl",
+									children: "Open-pollinated (OP)"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "Seed that grows true." })] }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
+									className: "font-display text-xl",
+									children: "F1 hybrid"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "A cross. Saved seed won't grow true." })] }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
+									className: "font-display text-xl",
+									children: "Isolation"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "Distance between varieties to prevent crossing." })] }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
+									className: "font-display text-xl",
+									children: "Tipburn"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "Brown leaf edges from calcium not reaching fast-growing leaves." })] }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
+									className: "font-display text-xl",
+									children: "Cut-and-come-again"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "Harvesting outer leaves so the plant regrows." })] }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
+									className: "font-display text-xl",
+									children: "Succession sowing"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "Sowing a little every 1 to 2 weeks." })] })
+							]
+						})
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Chapter, {
+						id: "about",
+						num: "11",
+						title: "About and disclaimer",
+						lede: "This pocket guide is for learning.",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Check your local county extension office for advice in your area." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Never eat a wild plant you cannot identify for certain." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Blue and the Awesome Dudes are not responsible for illness, injury, or crop loss." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Part of The Education Revolution pocket guide series." })
+						]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
+						className: "border-t border-line py-10 text-sm text-muted",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Privacy: This guide does not collect your name, email, or any personal information. Your zone choice is saved only on your own device." })
 					})
 				]
 			})]

@@ -127,7 +127,7 @@ export function Book() {
             }}
           >
             <Leaf className="size-5 shrink-0 text-leaf" aria-hidden="true" />
-            <span className="truncate font-display text-lg">From Seed to Seed</span>
+            <span className="truncate font-display text-lg">Lettuce</span>
           </a>
           <label className="ml-auto flex items-center gap-2 text-sm">
             <span className="hidden text-muted sm:inline">Your zone</span>
@@ -188,8 +188,9 @@ export function Book() {
             />
             <div>
               <p className="kicker">A grower's book of lettuce</p>
-              <h1 className="mt-3 font-display text-5xl text-ink md:text-6xl">From Seed to Seed</h1>
-              <p className="mt-3 font-display text-xl">Jessica McIntosh</p>
+              <h1 className="mt-3 font-display text-5xl text-ink md:text-6xl">Lettuce</h1>
+              <p className="mt-3 font-display text-xl">by Blue and the Awesome Dudes</p>
+              <p className="mt-1 text-sm">The Education Revolution Pocket Guide, Volume 20: Lettuce</p>
               <p className="mt-5 max-w-md text-lg text-muted">
                 How to sow it, how long your zone will let you keep it, when to cut for the bowl, and how to bring the best plants back as seed.
               </p>
@@ -208,6 +209,23 @@ export function Book() {
               </button>
             </div>
           </header>
+
+          <Chapter
+            id="start"
+            num="00"
+            title="Start here"
+            lede="New to lettuce?"
+          >
+            <ol className="list-decimal space-y-3 pl-5">
+              <li>Set your zone at the top.</li>
+              <li>Sow in cool weather, spring and fall.</li>
+              <li>Press the seed onto the surface, barely covered, and keep it moist.</li>
+              <li>Thin so the plants have room.</li>
+              <li>Water evenly and give afternoon shade as it warms.</li>
+              <li>Harvest in the morning.</li>
+              <li>For seed, let your best open-pollinated plants bolt and keep varieties 10 to 20 feet apart.</li>
+            </ol>
+          </Chapter>
 
           <Chapter
             id="plant"
@@ -230,7 +248,7 @@ export function Book() {
             <ul className="list-disc space-y-2 pl-5">
               <li>Soil temperature from about 40°F (4°C), slow and grudging, up to a happy 60–68°F (16–20°C), where seed is often up in a few days.</li>
               <li>Above roughly 75–80°F (24–27°C), many varieties slip into thermodormancy and simply refuse. Shade, evening sowing, and a few days in the refrigerator can break that refusal. Hot soil plus a dry crust will not.</li>
-              <li>A cover no deeper than ⅛ inch (3 mm). Seed that is buried is seed that is late.</li>
+              <li>A cover no deeper than ⅛ inch (3 mm). Lettuce seed sprouts best with some light reaching it, so press it onto the surface and barely cover it. Seed that is buried is seed that is late.</li>
               <li>Steady surface moisture until the cotyledons open. After that, deep and even beats a daily sprinkle.</li>
             </ul>
             <p>
@@ -303,7 +321,7 @@ export function Book() {
               ))}
             </ul>
             <p className="text-sm text-muted">
-              These are open-pollinated varieties you can save seed from. If a packet says F1 or hybrid, grow it for the bowl and buy it again.
+              These are open-pollinated varieties you can save seed from. If a packet says F1 or hybrid, grow it for the bowl and start from a new packet next time.
             </p>
           </Chapter>
 
@@ -441,7 +459,7 @@ export function Book() {
               Three things push the stalk: days longer than about fourteen hours, daytime heat much above 75–80°F (24–27°C), and stress, especially drought or crowding. The first sign is a tightening, elongating center, not the flower itself. Taste a leaf. If the bitterness is already there, harvest the bed for cooking or for the neighbors, and leave only the plants you marked for seed.
             </p>
             <p>
-              Shade on the west side, steady water, and a slow-bolting variety buy time. They do not repeal July. In zone {zone.id}: {zone.summer}
+              Shade on the west side, steady water, and a slow-bolting variety give you time. They do not repeal July. In zone {zone.id}: {zone.summer}
             </p>
             <h3 className="font-display text-2xl">What goes wrong, and the useful response</h3>
             <ul className="space-y-4">
@@ -483,7 +501,13 @@ export function Book() {
               In zone {zone.id}, expect the spring bowl {zone.springPick.toLowerCase()}, and the later bowl {zone.fallPick.toLowerCase()}.
             </p>
             <p>
-              Store it unwashed, in a container or perforated bag with a dry towel, as cold and as humid as the refrigerator allows without freezing. Leaf lettuce is a week. Romaine and a sound crisphead can go two. Wash when you eat. Lettuce is sensitive to ethylene, so keep it off the apples.
+              Store it unwashed, in a container or perforated bag with a dry towel, as cold and as humid as the refrigerator allows without freezing. Leaf lettuce is a week. Romaine and a sound crisphead can go two. Wash when you eat.
+            </p>
+            <p>
+              Raw salad can carry germs like E. coli. Wash your hands first. Remove the outer and damaged leaves. Rinse the leaves under cool running water, or swish them in a clean bowl and lift them out. Do not use soap or bleach. Spin or pat dry. Keep cut lettuce cold. Never use fresh manure on a salad bed.
+            </p>
+            <p>
+              Lettuce is sensitive to ethylene, so keep it off the apples.
             </p>
             <p>
               A light frost sweetens fall leaves. A hard freeze ruins them. If a real freeze is forecast and you have no cover, harvest and take the loss in the drawer rather than in the bed.
@@ -501,6 +525,11 @@ export function Book() {
               alt="A bolted lettuce with a tall stalk, small yellow flowers, and white seed heads"
               caption="Plate 5. The seed parent. Flowers open from the lower branches first, over several weeks."
             />
+            <aside className="border border-line bg-field p-5" aria-label="Wild lettuce">
+              <p>
+                Wild lettuce (prickly lettuce, Lactuca serriola, and bitter lettuce, Lactuca virosa) grows as a roadside weed. It has milky sap, prickly leaf midribs, and small yellow flowers. It can cross with your lettuce, so pull it before it flowers near your seed crop. You may read online that wild lettuce is 'lettuce opium' or a natural sedative. This guide does NOT recommend eating, smoking, or making remedies from wild lettuce. The sap can cause poisoning, and the claims are not proven.
+              </p>
+            </aside>
             <ol className="space-y-5 border-l border-line pl-5">
               <li>
                 <h3 className="font-display text-xl">Choose the parents before they flower</h3>
@@ -524,6 +553,12 @@ export function Book() {
                 <h3 className="font-display text-xl">Cut when most heads are fluffy</h3>
                 <p className="mt-1">
                   About two-thirds ripe is the moment. Wait for every head and the wind, and the finches, take the first and best seed. Cut on a dry day after dew is gone. Put the stalks in a paper bag, not plastic. Plastic sweats and the seed molds.
+                </p>
+              </li>
+              <li>
+                <h3 className="font-display text-xl">Clean the seed</h3>
+                <p className="mt-1">
+                  Once the stalks are dry in the paper bag, shake and rub the heads inside the bag. Pour through a kitchen strainer, then gently blow or use a fan to lift away the white fluff (the pappus). Dry the clean seed a few more days before you jar it.
                 </p>
               </li>
               <li>
@@ -584,7 +619,7 @@ export function Book() {
               </table>
             </div>
             <p>
-              Before you trust old seed, test ten seeds on a damp towel in a bag at room temperature. Read it at seven days. Under about seventy percent, sow more thickly or replace the lot. Pelleted seed is best the year you buy it; the clay coat drinks moisture in storage.
+              Before you trust old seed, test ten seeds on a damp towel in a bag at room temperature. Read it at seven days. Under about seventy percent, sow more thickly or replace the lot. Pelleted seed is best the season it was packed; the clay coat drinks moisture in storage.
             </p>
             <fieldset className="border border-line p-4">
               <legend className="px-2 font-display text-xl">Seed-saving list for this garden</legend>
@@ -665,6 +700,7 @@ export function Book() {
                 </li>
               ))}
             </ul>
+            <p>For spinach, kale, arugula, and other greens, see Volume 3: Greens. For peas, see the Peas volume.</p>
           </Chapter>
 
           <Chapter
@@ -709,6 +745,68 @@ export function Book() {
               Frost, as a typical range: last in spring {zone.lastFrost.toLowerCase()}; first in fall {zone.firstFrost.toLowerCase()}. If your garden disagrees, believe the garden.
             </p>
           </Chapter>
+
+          <Chapter
+            id="glossary"
+            num="10"
+            title="Glossary"
+            lede="The words this book uses when it talks about sowing, heat, and seed."
+          >
+            <dl className="space-y-5">
+              <div>
+                <dt className="font-display text-xl">Bolting</dt>
+                <dd>Sending up a flower stalk; the leaves turn bitter.</dd>
+              </div>
+              <div>
+                <dt className="font-display text-xl">Thermodormancy</dt>
+                <dd>Seed refusing to sprout when the soil is too hot.</dd>
+              </div>
+              <div>
+                <dt className="font-display text-xl">Pappus</dt>
+                <dd>The white fluff attached to lettuce seed.</dd>
+              </div>
+              <div>
+                <dt className="font-display text-xl">Open-pollinated (OP)</dt>
+                <dd>Seed that grows true.</dd>
+              </div>
+              <div>
+                <dt className="font-display text-xl">F1 hybrid</dt>
+                <dd>A cross. Saved seed won't grow true.</dd>
+              </div>
+              <div>
+                <dt className="font-display text-xl">Isolation</dt>
+                <dd>Distance between varieties to prevent crossing.</dd>
+              </div>
+              <div>
+                <dt className="font-display text-xl">Tipburn</dt>
+                <dd>Brown leaf edges from calcium not reaching fast-growing leaves.</dd>
+              </div>
+              <div>
+                <dt className="font-display text-xl">Cut-and-come-again</dt>
+                <dd>Harvesting outer leaves so the plant regrows.</dd>
+              </div>
+              <div>
+                <dt className="font-display text-xl">Succession sowing</dt>
+                <dd>Sowing a little every 1 to 2 weeks.</dd>
+              </div>
+            </dl>
+          </Chapter>
+
+          <Chapter
+            id="about"
+            num="11"
+            title="About and disclaimer"
+            lede="This pocket guide is for learning."
+          >
+            <p>Check your local county extension office for advice in your area.</p>
+            <p>Never eat a wild plant you cannot identify for certain.</p>
+            <p>Blue and the Awesome Dudes are not responsible for illness, injury, or crop loss.</p>
+            <p>Part of The Education Revolution pocket guide series.</p>
+          </Chapter>
+
+          <footer className="border-t border-line py-10 text-sm text-muted">
+            <p>Privacy: This guide does not collect your name, email, or any personal information. Your zone choice is saved only on your own device.</p>
+          </footer>
         </main>
       </div>
     </div>

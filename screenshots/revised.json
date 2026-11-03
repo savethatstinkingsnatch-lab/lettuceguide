@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Lettuce: A Grower's Book of Lettuce",
+      "hasCanvas": false,
+      "bodyTextLen": 24643,
+      "bodyTextHash": "fa3889747fed3018ec2d398485dbbe4154c8f5b5fe42ad58514a2e9df568146c",
+      "bodyTextPrefix": "Lettuce Your zone Zone 3 Zone 4 Zone 5 Zone 6 Zone 7 Zone 8 Zone",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/revised.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Lettuce: A Grower's Book of Lettuce",
+      "hasCanvas": false,
+      "bodyTextLen": 24472,
+      "bodyTextHash": "91a972caabaa75c9eaa18c0dc3b21166538387a03f00427e63c47ae201a2d5a7",
+      "bodyTextPrefix": "Contents Lettuce Zone 3 Zone 4 Zone 5 Zone 6 Zone 7 Zone 8 Zone ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/revised-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/revised.json"
+}
