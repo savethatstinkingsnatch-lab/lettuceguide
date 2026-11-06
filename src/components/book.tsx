@@ -247,12 +247,12 @@ export function Book() {
             <h3 className="font-display text-2xl">What the seed needs before it is a plant</h3>
             <ul className="list-disc space-y-2 pl-5">
               <li>Soil temperature from about 40°F (4°C), slow and grudging, up to a happy 60–68°F (16–20°C), where seed is often up in a few days.</li>
-              <li>Above roughly 75–80°F (24–27°C), many varieties slip into thermodormancy and simply refuse. Shade, evening sowing, and a few days in the refrigerator can break that refusal. Hot soil plus a dry crust will not.</li>
+              <li>Above roughly 75–80°F (24–27°C) is a rough warning, not a hard stop. Varieties differ: high soil temperatures can inhibit germination, and lettuce seed also needs light. Keep the seedbed cool, lightly shaded, and evenly moist. A hot crust will not sprout.</li>
               <li>A cover no deeper than ⅛ inch (3 mm). Lettuce seed sprouts best with some light reaching it, so press it onto the surface and barely cover it. Seed that is buried is seed that is late.</li>
               <li>Steady surface moisture until the cotyledons open. After that, deep and even beats a daily sprinkle.</li>
             </ul>
             <p>
-              A USDA zone, which you can set at the top of this book, describes the coldest night of winter, not the week your lettuce turns bitter. Seattle and Atlanta can share a zone number and not share a sowing date. Use the calendar in chapter 3 as a map, then believe your soil thermometer and the first week of real heat.
+              A USDA zone, which you can set at the top of this book, describes the coldest night of winter, not the week your lettuce turns bitter. Seattle and Atlanta can share a zone number and not share a sowing date. The calendar in chapter 3 is a broad starting point. Adjust it for your frost dates, soil temperature, and hot spells.
             </p>
           </Chapter>
 
@@ -286,7 +286,7 @@ export function Book() {
               ))}
             </div>
             <p>
-              Days on a packet are from a direct sowing in good weather. A transplant does not shorten the plant's life; it only moves the start indoors. In fall, add ten to fourteen days, because the light is leaving.
+              Days on a packet are an estimate. Check how the company counts them — some count from sowing, others from transplanting. A transplant does not shorten the plant's life; it only moves the start. In fall, add ten to fourteen days, because the light is leaving.
             </p>
             <div className="flex flex-wrap gap-2 pt-2" role="group" aria-label="Filter varieties">
               {(["all", "leaf", "butter", "romaine", "crisp", "summer"] as const).map((item) => (
@@ -329,7 +329,7 @@ export function Book() {
             id="zones"
             num="03"
             title="Zones for planting and picking"
-            lede="Set your zone once. The months below, and the dates in the rest of the book, follow it. Frost dates are typical, not a promise — a valley, a slope, and a courtyard can disagree by two weeks."
+            lede="Set your zone once. The months below, and the dates in the rest of the book, are broad starting points, not a local forecast. A USDA zone describes winter cold, not when the heat arrives. Adjust for your frost dates, soil temperature, and hot spells. A valley, a slope, and a courtyard can disagree by two weeks."
           >
             <div className="grid grid-cols-3 gap-2 sm:grid-cols-5" role="radiogroup" aria-label="Choose a USDA zone">
               {zones.map((item) => {
@@ -398,7 +398,7 @@ export function Book() {
 
             <p>{zone.summer}</p>
             <p>
-              Last spring frost, typically: {zone.lastFrost}. First fall frost: {zone.firstFrost}. Lettuce laughs at a light frost and dies in a hard freeze unless a cover or a frame is over it. In zones 7 through 10 the winter problem is usually a cold night, not a frozen month. In zones 3 and 4 the winter problem is the winter.
+              Last spring frost, typically: {zone.lastFrost}. First fall frost: {zone.firstFrost}. Lettuce can tolerate a light frost, and sometimes a light freeze. Injury depends on how quickly the temperature drops and how long it stays below freezing. Cover the plants when a freeze is forecast. In zones 7 through 10 the winter problem is usually a cold night, not a frozen month. In zones 3 and 4 the winter problem is the winter.
             </p>
             <p>
               Sow a little every ten to fourteen days inside the green months, not a year's seed on the first warm Saturday. Stop while the plants can still finish before heat or before a freeze. The last fall sowing should mature with two extra weeks on the packet's number.
@@ -432,15 +432,15 @@ export function Book() {
             </p>
             <h3 className="font-display text-2xl">Soil</h3>
             <p>
-              A loose bed with finished compost, pH about 6.0 to 6.8, drains and still holds water. Lettuce is a light feeder with a shallow root. Too much nitrogen grows soft leaves that tipburn and attract aphids. A pale plant can have a small side-dressing three weeks after transplanting. A dark, lush plant needs nothing but water.
+              A loose bed with finished compost, pH about 6.0 to 6.8, drains and still holds water. Lettuce is a light feeder with a shallow root. Excess nitrogen can encourage lush growth and aphids. Rapid growth, heat, and uneven moisture can contribute to tipburn. A pale plant can have a small side-dressing three weeks after transplanting. A dark, lush plant needs nothing but water.
             </p>
             <p>
               In a pot, use at least 6 inches (15 cm) of potting mix, not garden soil, and choose leaf lettuce or a small butterhead like Tom Thumb. Containers dry out faster than beds. That is the whole extra difficulty.
             </p>
             <aside className="border-l-4 border-leaf bg-leaf-soft px-4 py-3">
-              <p className="font-display text-lg">Hot-soil trick for the fall sowing</p>
+              <p className="font-display text-lg">When the soil is still hot</p>
               <p className="mt-2">
-                If the bed is still above 80°F, chill the seed in a sealed bag in the refrigerator for three to five days, sow at dusk, cover the row with a board or a light shade until you see green, and do not let that strip dry once. This matters most in zones 7 and warmer.
+                If the bed is still warm, do not chill the seed in the refrigerator and call it fixed. Keep the seedbed cool, lightly shaded, and evenly moist: sow at dusk, cover the row with a board or light shade until you see green, and do not let that strip dry. This matters most in zones 7 and warmer.
               </p>
             </aside>
           </Chapter>
@@ -510,7 +510,7 @@ export function Book() {
               Lettuce is sensitive to ethylene, so keep it off the apples.
             </p>
             <p>
-              A light frost sweetens fall leaves. A hard freeze ruins them. If a real freeze is forecast and you have no cover, harvest and take the loss in the drawer rather than in the bed.
+              A light frost can sweeten fall leaves. A harder freeze may injure them, depending on how fast it arrives and how long it lasts. Cover the bed when a freeze is forecast. If you have no cover and a hard freeze is coming, harvest and take the loss in the drawer rather than in the bed.
             </p>
           </Chapter>
 
@@ -534,7 +534,7 @@ export function Book() {
               <li>
                 <h3 className="font-display text-xl">Choose the parents before they flower</h3>
                 <p className="mt-1">
-                  Mark six to twelve plants that look like the variety, taste right, and are among the last to bolt — not the first. Stop cutting their leaves. One plant will fill a jar and slowly narrow the variety. A small group keeps it.
+                  A few plants can produce seed for home use. Saving from around 10 to 20 plants is better if you want to preserve the variety's genetic diversity. Mark plants that look like the variety, taste right, and are among the last to bolt — not the first. Stop cutting their leaves. One plant will fill a jar and slowly narrow the variety.
                 </p>
               </li>
               <li>
@@ -619,7 +619,7 @@ export function Book() {
               </table>
             </div>
             <p>
-              Before you trust old seed, test ten seeds on a damp towel in a bag at room temperature. Read it at seven days. Under about seventy percent, sow more thickly or replace the lot. Pelleted seed is best the season it was packed; the clay coat drinks moisture in storage.
+              Before you trust old seed, test ten seeds on a damp towel in a bag at room temperature. Read it at seven days. Under about seventy percent, sow more thickly or replace the lot. Follow the packet's date and storage directions. Pelleted seed stored for more than about two years may germinate poorly — Utah State Extension notes the drop — because the clay coat drinks moisture. Test older pelleted seed before you depend on it.
             </p>
             <fieldset className="border border-line p-4">
               <legend className="px-2 font-display text-xl">Seed-saving list for this garden</legend>
@@ -707,7 +707,7 @@ export function Book() {
             id="year"
             num="09"
             title={`A year in zone ${zone.id}`}
-            lede={`${zone.climate}. This is the whole book on one page for the zone you chose. Change the zone at the top and the year changes with it.`}
+            lede={`${zone.climate}. This page is a broad starting point for the zone you chose, not a local forecast. Adjust for frost dates, soil temperature, and hot spells. Change the zone at the top and the year changes with it.`}
           >
             <ol className="space-y-5">
               <li>

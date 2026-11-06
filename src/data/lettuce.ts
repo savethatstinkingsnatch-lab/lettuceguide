@@ -357,8 +357,8 @@ export const companions: Companion[] = [
   {
     id: "peas",
     name: "Peas",
-    role: "Spring shade and a little nitrogen",
-    help: "A low trellis on the west side of a spring bed throws afternoon shade as the weather warms, and the roots leave nitrogen behind. Peas and lettuce share a cool season, then leave together.",
+    role: "Spring shade, and nitrogen later",
+    help: "A low trellis on the west side of a spring bed throws afternoon shade as the weather warms. Peas may add nitrogen to the bed as roots and plant residue break down. Do not count them as an immediate fertilizer for the lettuce. Peas and lettuce share a cool season, then leave together.",
     how: "Keep the trellis from blocking morning sun. Bush peas can sit at the edge without a fence.",
   },
   {
@@ -387,7 +387,7 @@ export const companions: Companion[] = [
 export const avoidList = [
   {
     name: "Fennel",
-    why: "It inhibits a long list of neighbors, lettuce included. Give it a pot or a far corner of the garden.",
+    why: "Fennel grows large and self-seeds unless you cut the flowers. Give it a pot or a far corner. Claims that it chemically inhibits lettuce are disputed, so keep it separate for its size and seedlings, not because the effect is settled.",
   },
   {
     name: "A second lettuce crop in sick soil",
@@ -405,7 +405,7 @@ export const avoidList = [
 
 export const seedChecks = [
   { id: "op", label: "Packet is open-pollinated or heirloom, not an F1 hybrid" },
-  { id: "plants", label: "Marked six to twelve slow, true-to-type plants and stopped cutting them" },
+  { id: "plants", label: "Marked a home seed crop: a few plants will do, and 10 to 20 is better for keeping the variety" },
   { id: "space", label: "Varieties stand at least 10 to 20 feet apart, and wild prickly lettuce is not flowering nearby" },
   { id: "cut", label: "Cut stalks when most heads are fluffy and dry, before wind takes the first seed" },
   { id: "dry", label: "Dried crisp indoors, then winnowed, before the jar was sealed" },
